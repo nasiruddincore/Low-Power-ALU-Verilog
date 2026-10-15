@@ -1,0 +1,169 @@
+$date
+	Thu Oct 15 08:25:11 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module alu_tb $end
+$var wire 32 ! result [31:0] $end
+$var wire 1 " Z_flag $end
+$var wire 1 # V_flag $end
+$var wire 1 $ N_flag $end
+$var wire 1 % C_flag $end
+$var parameter 32 & WIDTH $end
+$var reg 32 ' A [31:0] $end
+$var reg 32 ( B [31:0] $end
+$var reg 1 ) clk $end
+$var reg 1 * enable $end
+$var reg 4 + opcode [3:0] $end
+$var reg 1 , reset $end
+$scope module uut $end
+$var wire 32 - A [31:0] $end
+$var wire 32 . B [31:0] $end
+$var wire 1 ) clk $end
+$var wire 1 * enable $end
+$var wire 1 / is_arithmetic $end
+$var wire 4 0 opcode [3:0] $end
+$var wire 1 , reset $end
+$var wire 32 1 isolated_B [31:0] $end
+$var wire 32 2 isolated_A [31:0] $end
+$var parameter 32 3 WIDTH $end
+$var reg 1 % C_flag $end
+$var reg 1 $ N_flag $end
+$var reg 1 # V_flag $end
+$var reg 1 " Z_flag $end
+$var reg 1 4 next_C $end
+$var reg 1 5 next_N $end
+$var reg 1 6 next_V $end
+$var reg 1 7 next_Z $end
+$var reg 32 8 next_result [31:0] $end
+$var reg 32 9 result [31:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b100000 3
+b100000 &
+$end
+#0
+$dumpvars
+b0 9
+b0 8
+17
+06
+05
+04
+b0 2
+b0 1
+b0 0
+1/
+b0 .
+b0 -
+1,
+b0 +
+0*
+0)
+b0 (
+b0 '
+0%
+0$
+0#
+0"
+b0 !
+$end
+#5000
+1)
+#10000
+b1010 1
+07
+b11001 8
+b1111 2
+0)
+b1010 (
+b1010 .
+b1111 '
+b1111 -
+1*
+0,
+#15000
+b11001 !
+b11001 9
+1)
+#20000
+b101 1
+b1111 8
+b10100 2
+0)
+b1 +
+b1 0
+b101 (
+b101 .
+b10100 '
+b10100 -
+#25000
+b1111 !
+b1111 9
+1)
+#30000
+0/
+b0 1
+b111111110000000000000000 8
+b0 2
+0)
+b10 +
+b10 0
+b111111110000000011111111 (
+b111111110000000011111111 .
+b11111111111111110000000000000000 '
+b11111111111111110000000000000000 -
+#35000
+b111111110000000000000000 !
+b111111110000000000000000 9
+1)
+#40000
+b1111100111 2
+b1111100111 1
+1/
+07
+b11111001110 8
+0)
+b0 +
+b0 0
+b1111100111 (
+b1111100111 .
+b1111100111 '
+b1111100111 -
+0*
+#45000
+1)
+#50000
+0/
+b0 1
+b1 8
+b0 2
+0)
+b1010 +
+b1010 0
+b1010 (
+b1010 .
+b101 '
+b101 -
+1*
+#55000
+b1 !
+b1 9
+1)
+#60000
+0)
+#65000
+1)
+#70000
+0)
+#75000
+1)
+#80000
+0)
